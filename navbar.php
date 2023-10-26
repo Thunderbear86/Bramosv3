@@ -27,7 +27,7 @@
                     
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            App
+                            Apps
                         </a>
                         <div class="dropdown-menu" aria-labelledby="servicesDropdown2">
                             <a class="dropdown-item" href="#">Personale</a>

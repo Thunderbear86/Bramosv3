@@ -1,9 +1,12 @@
+@import 'bootstrap.scss';
+
 * {
 	box-sizing: border-box;
 }
 
 body {
 	margin: 0;
+	background-color: #d4dede;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,3 +34,36 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+.navbar.bg-dark {
+	background-color: #9AC1D9
+}
+
+.center-vertically {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; /* This ensures the container takes the full viewport height */
+}
+
+.center-vertically-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Ensure the column behaves as a flex container */
+.col-image-container {
+	display: flex;
+	justify-content: center;  /* Horizontally centers the image */
+	align-items: center;      /* Vertically centers the image */
+	padding: 0;               /* Remove default padding if necessary */
+}
+
+/* Style for the image */
+.fp-image {
+	width: 100%;       /* Takes the full width of its container */
+	height: 100%;      /* Takes the full height of its container */
+	object-fit: cover; /* Scales and crops to cover the container without distorting */
+	display: block;    /* Removes any default spacing around the image */
+}
+
