@@ -1,5 +1,5 @@
 <?php echo '
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <div class="container-fluid"> 
 
         <!-- Brand Section -->
@@ -62,7 +62,7 @@
             </div>
         </div>
 
-        <!-- Search + Buttons Section -->
+        <!-- Search + Buttons Section 
         <div class="col d-flex justify-content-end g-2"> 
             <form class="form-inline d-flex mr-2">
                 <input class="form-control mr-sm-2" type="search" placeholder="Søg" aria-label="Search">
@@ -70,7 +70,7 @@
             </form>
             <a href="#" class="btn btn-primary">Book Møde</a>
         </div>
-
+-->
     </div>
 </nav>
 
