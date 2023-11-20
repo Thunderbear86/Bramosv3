@@ -10,12 +10,12 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Sigende titel</title>
+    <title>Webapplikation</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
-    <meta name="copyright" content="Information om copyright">
+    <meta name="copyright" content="Thorbjørn Wagner">
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -28,6 +28,8 @@
 <body>
 
 <!-- Her skal sidens indhold ligge -->
+
+
 
 </body>
 </html>
