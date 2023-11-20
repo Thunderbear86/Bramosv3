@@ -52,34 +52,38 @@
 
 <div class="container systemer mt-3">
     <div class="row">
-        <div class="col-md-12 center-vertically-text mb-2">
-            <h2>Systemer</h2>
-        </div>
-
-        <div class="col-sm-12 col-md-6 col-lg-6 mb-2">
-            <h5>Dokumentation og Kommunikation</h5>
-            <p>De store krav til dokumentation i hverdagen kan hurtigt føre til tre ting. </p>
-            <br>
-
-            <p><span class="fst-italic fw-bolder">En grundig dokumentation</span> af hændelser, metoder og udvikling -
-                men som tidsmæssigt koster dyrt i varme hænder. </p>
-            <br>
-            <p><span class="fst-italic fw-bolder">Dokumentation der nedprioriteres</span>, for at have tilstrækkelig
-                fysisk tilstedeværelse med børn og borgere. </p>
-            <br>
-            <p><span class="fst-italic fw-bolder">Grundig dokumentation og tilstrækkelig tilstedeværelse</span> med børn
-                og borgere - på bekostning af personale der langsomt opslides.</p>
+        <div class="col-md-12 center-vertically-text mb-1">
+            <h2>Metaperspektiv</h2>
 
 
         </div>
 
-        <div class="col-sm-12 col-md-6 col-lg-6 mb-2">
-            <h5>Tilpasning til behov</h5>
-            <p>Selvom der er et pædagogisk paradigme - et narrativ - der sætter dagsorden for den nutidige pædagogik,
-                tilpasser den enkelte institution metoder og teorier til den enkelte borgers behov, såvel som
-                personalegruppens evner. </p>
+        <div class="col-sm-12 col-md-12 col-lg-6 mb-2">
+            <h5>Et intuitivt dokumentationssystem</h5>
+
+            <p>Forestil dig en pædagogisk hverdag, hvor du på farten kan få skrevet din dokumentation.</p>
+
+            <p>Et hashtag baseret system, som er effektivt og nemt at få et overblik over fokuspunkter og kerneopgaver!</p>
             <br>
+
+            <p><span class="fw-bolder">Metaperspektiv er en webapplikation</span> som kan bruges fleksibelt på alt fra telefon til computer.</p>
+            <p>Hold fokus på opgaven og noter på farten. Hurtigt og nemt, så er intet glemt.</p>
+            <br>
+            <p><span class="fw-bolder">Få et nemt overblik</span> over at vigtige hændelser, kontakter, opgaver, beskeder, ressource booking og meget mere!</p>
+            <br>
+            <p><span class="fw-bolder">Kunstig intelligens</span> sammenfatter dagbogsnotater og giver et overblik over mål, delmål og kerneopgaver. Få maksimalt ud af den daglige dokumentation, når der skal forhandles takster og støttebehov.</p>
+
+
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-6 mb-2">
+            <h5>Tilpasning efter behov</h5>
+
+            <p>Lige så forskellige mennesker er, er rammerne for institutionerne det også.</p>
+
             <p>Derfor arbejder vi i Metaperspektiv på løsninger, der kan tilpasses jeres individuelle behov.</p>
+            <br>
+            <p><span class="fw-bold">Metaperspektiv</span> er derfor fleksibel i opsætningen af applikationen, samt hvilke teorier og metoder, den kunstige intelligens skal tage udgangspunkt i.</p>
         </div>
 
     </div>
@@ -111,7 +115,7 @@
                 arbejdet med børn eller borgere.</p>
         </div>
 
-        <div class="col-sm-12 col-md-12 col-lg-6">
+        <div class="col-sm-12 col-md-12 col-lg-6 mt-3">
             <h5>Borger Udvikling</h5>
             <p>En af de fornemste opgaver der findes i det pædagogiske felt er, at forberede og fremme selvstændighed.
                 Evnen til at mestre eget liv. Med et fremstormende teknologisk sektor, kan vi med fordel drage nytte af
@@ -125,6 +129,7 @@
 
     </div>
 </div>
+<!--
 <div class="container mt-5">
     <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12 col-image-container">
@@ -134,6 +139,7 @@
         </div>
     </div>
 </div>
+
 
 <div class="container kurser mt-3">
     <div class="row">
@@ -167,6 +173,7 @@
 
     </div>
 </div>
+-->
 <div class="container mt-5">
     <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12 col-image-container">
@@ -211,7 +218,7 @@
     </div>
 </div>
 -->
-<footer>
+<footer class="mt-5">
     <?php include 'footer.php'; ?>
 </footer>
 
