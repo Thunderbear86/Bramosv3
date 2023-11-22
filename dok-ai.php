@@ -34,7 +34,7 @@
     <?php include 'navbar.php'; ?>
 </header>
 
-<div class="container-fluid m-3">
+<div class="container-fluid mt-3">
     <div class="row mb-5">
         <div class="col-md-12 text-center"><h3>Hvad er Dok-AI?</h3></div>
         <div class="col-md-12 text-center mt-2"><p>En pædagogisk dokumentations- og administrationsplatform, der trækker på kunstig intelligens.</p></div>
@@ -58,13 +58,21 @@
             <!-- Profile Image -->
             <img src="img/dok-ai/portrait250-01.png" class="profile-img" alt="Profile Image">
         </div>
-        <div class="col-md-8 d-flex align-items-center">
+        <div class="col-md-4 d-flex align-items-center">
             <!-- Search Bar -->
             <div class="search-bar w-100">
                 <input type="text" placeholder="Søg..." class="search-bar-input" name="search">
                 <span class="ms-auto p-2" onclick="searchFeed()"><i class="bi bi-search"></i></span>
             </div>
         </div>
+        <div class="col-md-4 d-flex align-items-center justify-content-center">
+            <!-- Opret BTN -->
+            <button type="button" class="btn light-green-btn" data-bs-toggle="modal" data-bs-target="#inputModal">
+                Opret indlæg
+            </button>
+        </div>
+
+
         <div class="col-md-2 d-flex justify-content-center align-items-center position-relative">
             <!-- Burger Menu -->
             <div class="burger-menu" onclick="toggleMenu()">
@@ -400,9 +408,7 @@
         <!-- Right Column -->
         <div class="col-md-2 d-flex flex-column align-items-center">
             <!-- Container for the Button -->
-            <button type="button" class="btn light-green-btn" data-bs-toggle="modal" data-bs-target="#inputModal">
-                Opret indlæg
-            </button>
+
             <!-- Other content for the column can go here -->
         </div>
 
