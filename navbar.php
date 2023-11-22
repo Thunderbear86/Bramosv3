@@ -19,7 +19,7 @@
                             Systemer
                         </a>
                         <div class="dropdown-menu" aria-labelledby="servicesDropdown1">
-                            <a class="dropdown-item" href="#">Dokumentation</a>
+                            <a class="dropdown-item" href="dok-ai.php">Dok-AI</a>
                             <a class="dropdown-item" href="#">Kommunikation</a>
                             <a class="dropdown-item" href="#">Videns Database</a>
                         </div>

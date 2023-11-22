@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Metaperspektiv - Din pædagogiske vidensbank</title>
+    <title>Metaperspektiv - Kunstig intelligens til alle formål</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -53,37 +53,31 @@
 <div class="container systemer mt-3">
     <div class="row">
         <div class="col-md-12 center-vertically-text mb-1">
-            <h2>Metaperspektiv</h2>
+            <h2>Pædagogisk dokumentations- og administrationsplatform</h2>
 
 
         </div>
 
         <div class="col-sm-12 col-md-12 col-lg-6 mb-2">
-            <h5>Et intuitivt dokumentationssystem</h5>
+            <h5>Nem og anvendelig</h5>
 
-            <p>Forestil dig en pædagogisk hverdag, hvor du på farten kan få skrevet din dokumentation.</p>
+            <p>Vi skaber intuitive løsninger, for at dokumentation ikke bliver til en meningsløs byrde.</p>
 
-            <p>Et hashtag baseret system, som er effektivt og nemt at få et overblik over fokuspunkter og kerneopgaver!</p>
+            <p>Et hashtag baseret dokumentationssystem, som med hjælp fra kunstig intelligens, effektivt skaber et overblik over fokuspunkter og kerneopgaver!</p>
             <br>
-
-            <p><span class="fw-bolder">Metaperspektiv er en webapplikation</span> som kan bruges fleksibelt på alt fra telefon til computer.</p>
-            <p>Hold fokus på opgaven og noter på farten. Hurtigt og nemt, så er intet glemt.</p>
+            <p>Få <span class="fw-bolder">overblik</span> over hændelser, opgaver, kontakter, beskeder og meget mere!</p>
             <br>
-            <p><span class="fw-bolder">Få et nemt overblik</span> over at vigtige hændelser, kontakter, opgaver, beskeder, ressource booking og meget mere!</p>
-            <br>
-            <p><span class="fw-bolder">Kunstig intelligens</span> sammenfatter dagbogsnotater og giver et overblik over mål, delmål og kerneopgaver. Få maksimalt ud af den daglige dokumentation, når der skal forhandles takster og støttebehov.</p>
-
-
+            <p><span class="fw-bolder">Kunstig intelligens</span> sammenfatter dagbogsnotater og giver et overblik over mål, delmål samt kerneopgaver. Få maksimalt ud af den daglige dokumentation, når der skal forhandles takster og støttebehov.</p>
         </div>
 
         <div class="col-sm-12 col-md-12 col-lg-6 mb-2">
             <h5>Tilpasning efter behov</h5>
 
-            <p>Lige så forskellige mennesker er, er rammerne for institutionerne det også.</p>
-
-            <p>Derfor arbejder vi i Metaperspektiv på løsninger, der kan tilpasses jeres individuelle behov.</p>
+            <p>Dokumentationssystemet tilpasses den enkelte institution, samt medarbejder.</p>
             <br>
-            <p><span class="fw-bold">Metaperspektiv</span> er derfor fleksibel i opsætningen af applikationen, samt hvilke teorier og metoder, den kunstige intelligens skal tage udgangspunkt i.</p>
+            <p>Fleksibilitet i opsætningen af applikationen, samt implementation af teorier og metoder i den kunstige intelligens, kan <span class="fw-bolder">sparre ressourcer</span> på dokumentation og administrative opgaver - og flytte dem tilbage til børn og borgere.</p>
+
+
         </div>
 
     </div>
@@ -108,7 +102,7 @@
         <div class="col-sm-12 col-md-12 col-lg-6">
             <h5>Personale Værktøj</h5>
             <p>Når vi kender jeres specifikke behov, kan vi udvikle løsninger, der passer ind i jeres hverdag. Vi
-                udvikler apps, som kan gøre dokumentaion på farten muligt. Ligeledes vil vidensdeling og overlap mellem
+                udvikler apps, som kan gøre dokumentation på farten muligt. Ligeledes vil vidensdeling og overlap mellem
                 personaler blive en nem og overskuelig proces. </p>
             <br>
             <p>Det vigtigste er, at vi formår at gøre netop jeres hverdag bedre, for at frigøre ressourcer og energi til
@@ -117,7 +111,7 @@
 
         <div class="col-sm-12 col-md-12 col-lg-6 mt-3">
             <h5>Borger Udvikling</h5>
-            <p>En af de fornemste opgaver der findes i det pædagogiske felt er, at forberede og fremme selvstændighed.
+            <p>En af de fornemmeste opgaver der findes i det pædagogiske felt er, at forberede og fremme selvstændighed.
                 Evnen til at mestre eget liv. Med et fremstormende teknologisk sektor, kan vi med fordel drage nytte af
                 den udvikling der sker - både indenfor kunstig intelligens, men også med at de fleste kan lære at
                 benytte apps.</p>
@@ -147,7 +141,7 @@
             <h2>Kompetenceudvikling</h2>
         </div>
 
-        <div class="col-sm-12 col-md-4 col-lg-4">
+        <div class="col-sm-12 col-md-6 col-lg-6">
             <h5>Personale Kompetenceudvikling</h5>
             <p>Kommunikation er et komplekst emne og der følger altid mange perspektiver med, når vi arbejder med
                 kommunikation.
@@ -160,16 +154,21 @@
                 Kommunikation, konfliktløsning, udvikling og teknologi er bærende emner i vores kurser.</p>
         </div>
 
-        <div class="col-sm-12 col-md-4 col-lg-4">
-            <h5>Borger - Mestring af eget liv med IT</h5>
-            <p>Borger - Mestring af eget liv med IT</p>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <h5>Livsmestring og teknologi</h5>
+            <p>Den teknologiske udvikling er de seneste år braget frem. Især kunstig intelligens har været i en udvikling, som kan være svær at følge med i - og forstå.</p>
+            <p>Men denne udvikling giver muligheder. Muligheder som vi ikke troede var mulige få år tilbage. Apps, programmer og enheder udvikles til at gøre livet nemmere. Dog kræver det forståelse for den teknologi der tilbydes, for at kunne få det maksimale ud af den.</p>
+            <br>
+            <p>Vi tilbyder individuelt tilpasset læringsforløb, hvor vi gennem en socialkonstruktivistisk tilgang møder barnet og borgeren hvor de befinder sig.</p>
+            <p>På den måde sørger vi for, at teknologiens fremskridt kommer dem til gode, som kan få mest ud af den - og som måske har det største behov for de muligheder udviklingen kan tilbyde!</p>
         </div>
 
+        <!--
         <div class="col-sm-12 col-md-4 col-lg-4">
             <h5>Ledelse i hverdagen</h5>
             <p>Ledelse i hverdagen</p>
         </div>
-
+-->
 
     </div>
 </div>

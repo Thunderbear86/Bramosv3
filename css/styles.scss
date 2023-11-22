@@ -7,6 +7,7 @@
 body {
 	margin: 0;
 	background-color: #F3FBFF;
+	font-family: 'Lato', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -67,3 +68,110 @@ img {
 	display: block;    /* Removes any default spacing around the image */
 }
 
+// DOK-AI Styles
+
+.profile-img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.search-bar {
+	display: flex;
+	align-items: center;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+}
+.search-bar input {
+	border: none;
+	background: none;
+	margin-left: 10px;
+	padding: 10px;
+	outline: none;
+}
+.burger-menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+.burger-menu i {
+	font-size: 40px; /* Adjust this value as needed */
+}
+
+.menu-content {
+	top: 100%; /* Position directly below the burger menu */
+	left: 0;
+	right: 0;
+	z-index: 1000; /* Ensure it's above other content */
+	background-color: white; /* or any color you prefer */
+	border: 1px solid #ddd; /* Optional border */
+}
+
+.menu-content a {
+	display: block;
+	padding: 5px;
+	color: black;
+	text-decoration: none;
+}
+
+.menu-content a:hover {
+	background-color: #f8f8f8; /* Slight hover effect */
+}
+
+
+//box og links
+
+.vertical-links a {
+	display: flex;          /* Aligns items in a row */
+	align-items: center;    /* Centers items vertically */
+	margin-bottom: 10px;
+	color: black;
+	text-decoration: none;
+}
+
+.vertical-links a svg {
+	margin-right: 8px; /* Adjust this value as needed */
+}
+
+.vertical-links a:hover {
+	text-decoration: underline; /* Adds an underline on hover, you can remove this if you don't want any effect */
+}
+
+.info-box {
+	border: 1px solid #ddd;
+	padding: 15px;
+	margin-bottom: 15px;
+	/* Additional styling as needed */
+}
+
+.info-box img {
+	object-fit: cover;
+}
+
+.feed-item {
+	margin-bottom: 15px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	/* Add more styling as needed */
+}
+
+//Indlæg BTN
+
+.top-centered-button {
+	margin-top: 10px;  /* Adjust this value as needed */
+
+}
+
+.light-green-btn {
+	background-color: #328632; /* Light green color; you can adjust this */
+	color: white; /* Text color; adjust as needed */
+	border-color: #328632FF; /* Border color; same as background for a solid look */
+}
+
+.light-green-btn:hover {
+	background-color: #7ccd7c; /* Slightly darker green for hover effect */
+	border-color: #7ccd7c;
+}
