@@ -37,11 +37,11 @@
 <div class="container-fluid m-3">
     <div class="row mb-5">
         <div class="col-md-12 text-center"><h3>Hvad er Dok-AI?</h3></div>
-        <div class="col-md-12 text-center mt-2"><p>En pædagogisk dokumentations- og administrationsplatform, der trækker på kunstig intelligens!</p></div>
+        <div class="col-md-12 text-center mt-2"><p>En pædagogisk dokumentations- og administrationsplatform, der trækker på kunstig intelligens.</p></div>
         <br>
         <div class="col-md-12 text-center mt-5"><h4>Hvad kan Dok-AI gøre for dig?</h4></div>
         <div class="col-md-12 text-center mt-2"><p>Dok-AI gør det muligt, på en intuitiv måde, at føre pædagogisk dokumentation på farten.</p></div>
-        <div class="col-md-12 text-center"><p>Dok-AI kan opresumere flere måneder dokumentation i en overskuelig sammenfatning - i et fagligt sprog - til bl.a. møder med sagsbehandler.</p></div>
+        <div class="col-md-12 text-center"><p>Dok-AI kan sammenfatte flere måneders dokumentation i en overskuelig sammenfatning - i et fagligt sprog - til bl.a. møder med sagsbehandler.</p></div>
     </div>
 </div>
 
@@ -61,8 +61,8 @@
         <div class="col-md-8 d-flex align-items-center">
             <!-- Search Bar -->
             <div class="search-bar w-100">
-                <input type="text" placeholder="Søg..." name="search">
-                <span class="ms-auto p-2"><i class="bi bi-search"></i></span>
+                <input type="text" placeholder="Søg..." class="search-bar-input" name="search">
+                <span class="ms-auto p-2" onclick="searchFeed()"><i class="bi bi-search"></i></span>
             </div>
         </div>
         <div class="col-md-2 d-flex justify-content-center align-items-center position-relative">
@@ -411,22 +411,31 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="inputModalLabel">Enter Information</h5>
+                        <h5 class="modal-title" id="inputModalLabel">Opret nyt indlæg</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <!-- Your form or input fields go here -->
                         <form id="infoForm">
                             <div class="mb-3">
-                                <label for="exampleTextInput" class="form-label">Example Text Input</label>
-                                <input type="text" class="form-control" id="exampleTextInput">
+                                <label for="inputDate" class="form-label">Dato</label>
+                                <input type="text" class="form-control" id="inputDate">
+                            </div>
+                            <div class="mb-3">
+                                <label for="inputCitizen" class="form-label">Borger</label>
+                                <input type="text" class="form-control" id="inputCitizen">
+                            </div>
+                            <div class="mb-3">
+                                <label for="inputNote" class="form-label">Notat</label>
+                                <input type="text" class="form-control" id="inputNote">
                             </div>
                             <!-- Add more input fields as needed -->
                         </form>
+
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn light-green-btn" onclick="submitInfo()">Submit</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Luk</button>
+                        <button type="button" class="btn light-green-btn" onclick="submitInfo()">Opret</button>
                     </div>
                 </div>
             </div>
