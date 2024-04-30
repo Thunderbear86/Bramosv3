@@ -40,22 +40,21 @@
     </div>
 </div>
 -->
-<div class="container">
+<div class="container-fluid">
     <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-image-container">
-            <div class="fp-image">
-                <img src="img/system.jpg" alt="Description of Image">
-            </div>
+        <div class="col-12 cover-image-container">
+            <img src="img/cover.png" alt="Cover Img">
+            <div class="overlay-text">Welcome to Our Website!</div>
         </div>
     </div>
 </div>
 
+
+
 <div class="container systemer mt-3">
     <div class="row">
         <div class="col-md-12 center-vertically-text mb-1">
-            <h2>Pædagogisk dokumentations- og administrationsplatform</h2>
-
-
+            <h2>AI Løsninger</h2>
         </div>
 
         <div class="col-sm-12 col-md-12 col-lg-6 mb-2">
@@ -76,8 +75,6 @@
             <p>Dokumentationssystemet tilpasses den enkelte institution, samt medarbejder.</p>
             <br>
             <p>Fleksibilitet i opsætningen af applikationen, samt implementation af teorier og metoder i den kunstige intelligens, kan <span class="fw-bolder">sparre ressourcer</span> på dokumentation og administrative opgaver - og flytte dem tilbage til børn og borgere.</p>
-
-
         </div>
 
     </div>
@@ -96,7 +93,7 @@
 <div class="container apps mt-3">
     <div class="row">
         <div class="col-md-12 center-vertically-text m-2 pb-2">
-            <h2>Apps</h2>
+            <h2>Opkvalificering</h2>
         </div>
 
         <div class="col-sm-12 col-md-12 col-lg-6">
@@ -163,12 +160,12 @@
             <p>På den måde sørger vi for, at teknologiens fremskridt kommer dem til gode, som kan få mest ud af den - og som måske har det største behov for de muligheder udviklingen kan tilbyde!</p>
         </div>
 
-        <!--
+
         <div class="col-sm-12 col-md-4 col-lg-4">
             <h5>Ledelse i hverdagen</h5>
             <p>Ledelse i hverdagen</p>
         </div>
--->
+
 
     </div>
 </div>
@@ -186,7 +183,7 @@
 <div class="container blog mt-3">
     <div class="row">
         <div class="col-md-12 center-vertically-text m-2 pb-2">
-            <h2>Vidensbank</h2>
+            <h2>Support</h2>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-12">
             <h5>Pædagogisk database</h5>

@@ -4,7 +4,7 @@
 
         <!-- Brand Section -->
         <div class="col">
-            <a class="navbar-brand fw-bold" href="index.php">Metaperspektiv</a>
+            <a class="navbar-brand fw-bold" href="index.php">Bramos</a>
         </div>
 
         <!-- Menu Items Section -->
@@ -14,49 +14,25 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Systemer
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="servicesDropdown1">
-                            <a class="dropdown-item" href="dok-ai.php">Dok-AI</a>
-                            <a class="dropdown-item" href="#">Kommunikation</a>
-                            <a class="dropdown-item" href="#">Videns Database</a>
-                        </div>
-                    </li>
-                    
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Apps
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="servicesDropdown2">
-                            <a class="dropdown-item" href="#">Personale</a>
-                            <a class="dropdown-item" href="#">Borger</a>
-                            <a class="dropdown-item" href="#">Adm. og Ledelse</a>
-                        </div>
-                    </li>
-                    
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Kurser
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="servicesDropdown3">
-                            <a class="dropdown-item" href="#">Personale</a>
-                            <a class="dropdown-item" href="#">Borger</a>
-                            <a class="dropdown-item" href="#">Adm. og Ledelse</a>
-                        </div>
+                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Screening</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Vidensbank</a>
+                        <a class="nav-link" href="#">Opkvalificering</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Vores Vision</a>
+                        <a class="nav-link" href="#">Support</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Kontakt Os</a>
+                        <a class="nav-link" href="#">Vision</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontakt</a>
                     </li>
                 </ul>
             </div>
