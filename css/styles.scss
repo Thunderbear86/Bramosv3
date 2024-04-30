@@ -1,31 +1,17 @@
+/* Import Bootstrap Styles */
 @import 'bootstrap.scss';
 
-/* Reset and base styles */
+/* Reset and Base Styles */
 * {
 	box-sizing: border-box;
 }
-body {
-	background-color: #F3FBFF;
-	font-family: 'Lato', sans-serif;
-}
-
 html, body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	height: 100%;
-}
-
-.container-fluid, .row {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-
-
-h1, h2, h3, h4, h5, h6, p, ul, ol, li {
-	margin: 0;
-	padding: 0;
+	background-color: #F3FBFF;
+	font-family: 'Lato', sans-serif;
 }
 ul, ol {
 	margin: 2px 10px;
@@ -37,12 +23,75 @@ img {
 	height: auto;
 }
 
-/* Navbar customization */
+/* Navbar Customization */
 .navbar.bg-dark {
 	background-color: #9AC1D9;
 }
 
-/* Flexbox centering utilities */
+.nav-link {
+	transition: color 0.3s ease;
+}
+
+
+.navbar-brand img {
+	height: 40px; /* Adjust based on your logo's aspect ratio */
+	width: auto;
+}
+
+/* Navbar Toggler Customization */
+
+.navbar-toggler {
+	border: none;
+	outline: none;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+	outline: none;   /* Removes outline on focus */
+	box-shadow: none;  /* Removes any box shadow which might be perceived as a border */
+	border: none;  /* Explicitly removes border */
+}
+
+
+.navbar-toggler-icon {
+	background-image: url("path_to_custom_icon.png"); /* Or use a CSS-drawn design */
+}
+
+/* Navbar Color */
+
+.navbar {
+	background-color: #9AC1D9; /* Example: A soft blue */
+}
+.nav-link {
+	color: #FFFFFF; /* Ensures readability */
+}
+.nav-link:hover {
+	color: #FFFFFE; /* A slightly off-white for hover states */
+}
+
+/* Navbar BTN */
+
+.navbar-toggler {
+	border: none;
+	outline: none;
+}
+
+.navbar-toggler .fa-bars {
+	color: #fff; /* Set the color */
+	font-size: 28px; /* Set the size of the icon */
+}
+
+.navbar .navbar-toggler {
+	margin-left: auto;  // Pushes the toggler to the right
+}
+
+@media (max-width: 768px) {
+	.navbar-toggler .fa-bars {
+		font-size: 24px; /* Slightly smaller icon on mobile devices */
+	}
+}
+
+
+/* Flexbox Centering Utilities */
 .center-vertically, .center-vertically-text {
 	display: flex;
 	justify-content: center;
@@ -50,96 +99,76 @@ img {
 	height: 100vh;
 }
 
-/* Specific styles for cover image container */
+/* Specific Styles for Full-width Image Container */
 .cover-image-container {
 	position: relative;
 	width: 100%;
-	height: auto;
 	overflow: hidden;
+	padding-left: 0 !important; /* Removes padding for full width */
+	padding-right: 0 !important; /* Removes padding for full width */
 }
-
 .cover-image-container img {
 	width: 100%;
-	height: auto;
-	object-fit: cover;
+	object-fit: cover; /* Covers the full area of the container, maintains aspect ratio */
 }
-
 .cover-image-container .overlay-text {
 	position: absolute;
 	top: 50%;  /* Center vertically */
 	left: 50%; /* Center horizontally */
-	transform: translate(-50%, -50%); /* Align the center of the element with the center of the container */
+	transform: translate(-50%, -50%);
 	color: white;
-	font-size: 4vw; /* Responsive font size based on the width of the viewport */
-	text-align: center; /* Center the text */
+	font-size: 4vw; /* Responsive font size based on viewport width */
+	text-align: center;
 	z-index: 10;
 }
 
-@media (max-width: 768px) {
-	.cover-image-container .overlay-text {
-		font-size: 5vw; /* Slightly larger font size for better readability on small devices */
-	}
+/* Smaller subtext under the main overlay text */
+.cover-image-container .subtext {
+	position: absolute;
+	top: 60%; /* Adjusted so it appears below the main text */
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%; /* Ensures the text is centered regardless of length */
+	text-align: center;
+	color: white; /* Color to make it visible on a dark background */
+	font-size: 2vw; /* Smaller font size, responsive */
+	z-index: 10;
 }
 
+/* Overlay for cover image container */
 .cover-image-container::after {
-	content: "";  /* Necessary for the pseudo-element to work */
-	position: absolute; /* Position relative to the container */
-	top: 0;  /* Cover the entire container */
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-image: linear-gradient(to right,
-					rgba(255, 255, 255, 0.9) 0%,
-					rgba(245, 245, 245, 0.8) 25%,
-					rgba(128, 128, 128, 0.5) 50%,
-					rgba(45, 45, 45, 0.2) 75%,
-					rgba(0, 0, 0, 0.1) 100%);
-	pointer-events: none; /* Ensures the image underneath is still interactable */
-}
-
-
-
-.cover-image-container .fp-image {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.cover-image-container .fp-image img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-
-/* Overlay with opacity specifically for the cover image */
-.cover-image-container .fp-image::before {
 	content: "";
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.5); /* Black with 50% opacity */
+	right: 0;
+	bottom: 0;
+	background-color: rgba(64, 64, 64, 0.5); /* Light grey with 50% opacity */
 	pointer-events: none; /* Ensures the image underneath is still interactable */
 }
 
-/* Styles for image containers */
-.col-image-container {
+
+/* Media Queries */
+@media (max-width: 768px) {
+	.cover-image-container .overlay-text {
+		font-size: 5vw; /* Slightly larger font size for readability on small devices */
+	}
+}
+
+/* Styles for Other Image Containers */
+.col-image-container, .fp-image {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 0;
-}
-.fp-image {
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
-	display: block;
+}
+.fp-image img {
+	object-fit: cover; /* Ensures images fill their containers without distortion */
 }
 
-/* Additional components styling */
+/* Additional Components Styling */
 .profile-img, .info-box img {
 	width: 100px;
 	height: 100px;
@@ -151,12 +180,12 @@ img {
 	align-items: center;
 	background-color: #f1f1f1;
 	border-radius: 5px;
+	padding: 10px;
 }
 .search-bar input {
 	border: none;
 	background: none;
 	margin-left: 10px;
-	padding: 10px;
 	outline: none;
 }
 .burger-menu {

@@ -21,6 +21,9 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -45,6 +48,7 @@
         <div class="col-12 cover-image-container">
             <img src="img/cover.png" alt="Cover Img">
             <div class="overlay-text">Welcome to Our Website!</div>
+            <div class="subtext">Explore our innovative solutions</div>
         </div>
     </div>
 </div>
