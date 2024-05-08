@@ -1,11 +1,9 @@
 // main.js
 import { toggleMenu } from './burger.js';
-import { addTextToFeed } from './feed.js';
-import { submitInfo, handleEnterKeyPress } from './opret.js';
-import { searchFeed } from './searchDok.js'; // Ensure this is the correct path
+import { makeNavbarSticky } from './sticky.js';
 
+// Attach functions to the global window object if needed
 window.toggleMenu = toggleMenu;
-window.addTextToFeed = addTextToFeed;
-window.submitInfo = submitInfo;
-window.handleEnterKeyPress = handleEnterKeyPress;
-window.searchFeed = searchFeed;
+
+// Call the sticky function to enable sticky behavior on the navbar
+makeNavbarSticky();

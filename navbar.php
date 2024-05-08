@@ -1,40 +1,68 @@
 <?php echo '
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+<nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
-        <!-- Brand Section -->
-        <a class="navbar-brand fw-bold" href="index.php">Bramos</a>
+        <!-- Logo -->
+        <a href="https://bramos.dk/" class="navbar-brand">
+            <img src="img/logo/logov3-05.png" alt="Bramos AI" style="height: 50px;">
+        </a>
 
-        <!-- Menu Items Section -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        <!-- Burger Menu Toggle -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Screening</a>
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Tilgangen
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="https://bramos.dk/speciale/seo/">Screening</a></li>
+                        <!-- Additional dropdown items can be added here -->
+                    </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Opkvalificering</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Ydelser
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="https://bramos.dk/speciale/seo/">Opkvalificering</a></li>
+                        <!-- Additional dropdown items can be added here -->
+                    </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Support</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Bag Om Bramos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="https://bramos.dk/speciale/seo/">Screening</a></li>
+                        <!-- Additional dropdown items can be added here -->
+                    </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Vision</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Vision
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="https://bramos.dk/speciale/seo/">Om Bramos</a></li>
+                        <!-- Additional dropdown items can be added here -->
+                    </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Kontakt</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Kontakt
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="https://bramos.dk/speciale/seo/">Screening</a></li>
+                        <!-- Additional dropdown items can be added here -->
+                    </ul>
                 </li>
+                
+                <!-- Additional nav items -->
             </ul>
         </div>
     </div>
 </nav>
-
-
-<!-- Include Bootstrap JS and Popper.js for dropdowns and other functionality -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-';
-?>
+'; ?>

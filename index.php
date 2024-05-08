@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Bramos - Din genvej til AI</title>
+    <title>Bramos - Din guide til en verden af kunstig intelligens</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -34,51 +34,38 @@
 <header>
     <?php include 'navbar.php'; ?>
 </header>
-<!--
-<div class="container-fluid velkomst center-vertically">
-    <div class="row">
-        <div class="col-md-12">
-            <h1>Metaperspektiv - Din pædagogiske vidensbank</h1>
-        </div>
-    </div>
-</div>
--->
-<div class="container-fluid">
+
+<div class="container-fluid mb-0">
     <div class="row">
         <div class="col-12 cover-image-container">
             <img src="img/cover.png" alt="Cover Img">
-            <div class="overlay-text">Welcome to Our Website!</div>
-            <div class="subtext">Explore our innovative solutions</div>
+            <div class="overlay-text">Bramos</div>
+            <div class="subtext">Et skridt ind i fremtiden</div>
         </div>
     </div>
 </div>
 
-
-
-<div class="container systemer mt-3">
+<div class="container mt-3">
     <div class="row">
-        <div class="col-md-12 center-vertically-text mb-1">
-            <h2>AI Løsninger</h2>
+
+        <div class="col-sm-12 col-md-12 col-lg-6 mt-2">
+
+            <p>Kender du forskellen på <span class="fw-bold">open-source</span> og <span class="fw-bold">closed-source</span> AI løsninger?</p>
+
+            <p>Har du styr på <span class="fw-bold">licens</span> og <span class="fw-bold">rettigheder</span>?</p>
+
+            <p>Ved du hvilke muligheder der er indenfor AI, som dækker netop <span class="fw-bold">dine</span> behov?</p>
+
         </div>
 
         <div class="col-sm-12 col-md-12 col-lg-6 mb-2">
-            <h5>Nem og anvendelig</h5>
 
-            <p>Vi skaber intuitive løsninger, for at dokumentation ikke bliver til en meningsløs byrde.</p>
+            <p>Gennem en grundig screening, afdækker vi sammen hvilke områder, der kan optimeres med kunstig intelligens.</p>
 
-            <p>Et hashtag baseret dokumentationssystem, som med hjælp fra kunstig intelligens, effektivt skaber et overblik over fokuspunkter og kerneopgaver!</p>
-            <br>
-            <p>Få <span class="fw-bolder">overblik</span> over hændelser, opgaver, kontakter, beskeder og meget mere!</p>
-            <br>
-            <p><span class="fw-bolder">Kunstig intelligens</span> sammenfatter dagbogsnotater og giver et overblik over mål, delmål samt kerneopgaver. Få maksimalt ud af den daglige dokumentation, når der skal forhandles takster og støttebehov.</p>
-        </div>
+            <p>Jeg hjælper dig og din virksomhed med at navigere de mange tilbud der findes og guider jer i brugen af dem.</p>
 
-        <div class="col-sm-12 col-md-12 col-lg-6 mb-2">
-            <h5>Tilpasning efter behov</h5>
+            <p>Målet er, at optimere arbejdsprocesser og forkorte produktionskæder - og dermed frigøre ressourcer.</p>
 
-            <p>Dokumentationssystemet tilpasses den enkelte institution, samt medarbejder.</p>
-            <br>
-            <p>Fleksibilitet i opsætningen af applikationen, samt implementation af teorier og metoder i den kunstige intelligens, kan <span class="fw-bolder">sparre ressourcer</span> på dokumentation og administrative opgaver - og flytte dem tilbage til børn og borgere.</p>
         </div>
 
     </div>
@@ -124,56 +111,7 @@
 
     </div>
 </div>
-<!--
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-image-container">
-            <div class="fp-image">
-                <img src="img/kurser.jpg" alt="Kompetenceudvikling">
-            </div>
-        </div>
-    </div>
-</div>
 
-
-<div class="container kurser mt-3">
-    <div class="row">
-        <div class="col-md-12 center-vertically-text m-2 pb-2">
-            <h2>Kompetenceudvikling</h2>
-        </div>
-
-        <div class="col-sm-12 col-md-6 col-lg-6">
-            <h5>Personale Kompetenceudvikling</h5>
-            <p>Kommunikation er et komplekst emne og der følger altid mange perspektiver med, når vi arbejder med
-                kommunikation.
-                Den stigende grad af kunstig intelligens giver mange nye muligheder, men kræver også at personalet
-                opfylder de stigende krav der stilles til IT kompetencer.
-                Da mange børn og borgere bruger - eller vil drage fordel af at bruge - diverse teknologiske løsninger,
-                kræver det et personale, der kan vise vejen.</p>
-            <br>
-            <p>I vores kompetenceudvikling fokuserer vi derfor på det, som kan gøre netop jeres daglige praksis bedre.
-                Kommunikation, konfliktløsning, udvikling og teknologi er bærende emner i vores kurser.</p>
-        </div>
-
-        <div class="col-sm-12 col-md-6 col-lg-6">
-            <h5>Livsmestring og teknologi</h5>
-            <p>Den teknologiske udvikling er de seneste år braget frem. Især kunstig intelligens har været i en udvikling, som kan være svær at følge med i - og forstå.</p>
-            <p>Men denne udvikling giver muligheder. Muligheder som vi ikke troede var mulige få år tilbage. Apps, programmer og enheder udvikles til at gøre livet nemmere. Dog kræver det forståelse for den teknologi der tilbydes, for at kunne få det maksimale ud af den.</p>
-            <br>
-            <p>Vi tilbyder individuelt tilpasset læringsforløb, hvor vi gennem en socialkonstruktivistisk tilgang møder barnet og borgeren hvor de befinder sig.</p>
-            <p>På den måde sørger vi for, at teknologiens fremskridt kommer dem til gode, som kan få mest ud af den - og som måske har det største behov for de muligheder udviklingen kan tilbyde!</p>
-        </div>
-
-
-        <div class="col-sm-12 col-md-4 col-lg-4">
-            <h5>Ledelse i hverdagen</h5>
-            <p>Ledelse i hverdagen</p>
-        </div>
-
-
-    </div>
-</div>
--->
 <div class="container mt-5">
     <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12 col-image-container">
@@ -200,30 +138,15 @@
     </div>
 </div>
 
-<!-- Flyttes?
-<div class="container om">
-    <div class="row">
-        <div class="col-md-12 center-vertically-text m-2 pb-2">
-            <h2>Om Metaperspektiv</h2>
-        </div>
-        <div class="col-sm-12 col-md-4 col-lg-3">Hvem er vi</div>
-        <div class="col-sm-12 col-md-4 col-lg-3">Værdier</div>
-        <div class="col-sm-12 col-md-4 col-lg-3">Kontakt</div>
-        <div class="col-sm-12 col-md-4 col-lg-3">
-            <div class="fp-image">
-                <img src="path_to_your_image.jpg" alt="Description of Image">
-            </div>
-        </div>
-
-    </div>
-</div>
--->
 <footer class="mt-5">
     <?php include 'footer.php'; ?>
 </footer>
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script type="module" src="js/main.js"
+<script type="module" src="js/main.js"></script>
 </body>
 </html>
