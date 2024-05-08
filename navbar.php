@@ -3,7 +3,7 @@
     <div class="container-fluid">
         <!-- Logo -->
         <a href="https://bramos.dk/" class="navbar-brand">
-            <img src="img/logo/logov3-05.png" alt="Bramos AI" style="height: 50px;">
+            <img src="img/logo/logov4-05.png" alt="Bramos AI" style="height: 50px;">
         </a>
 
         <!-- Burger Menu Toggle -->
