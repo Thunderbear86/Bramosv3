@@ -14,9 +14,10 @@ $custom-colors: (
  */
 
 $custom-colors: (
-        "background": #E6E7D4,
+        "background": #F2FFFF,
         "sec": #3F5B63,
-        "third": #9BBFC9
+        "third": #C47F2A,
+        "fourth": #FFFFFF
 
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);

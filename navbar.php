@@ -3,7 +3,7 @@
     <div class="container-fluid">
         <!-- Logo -->
         <a href="https://bramos.dk/" class="navbar-brand">
-            <img src="img/logo/logov4-05.png" alt="Bramos AI" style="height: 50px;">
+            <img src="img/logo/logow.png" alt="Bramos AI" style="height: 50px;">
         </a>
 
         <!-- Burger Menu Toggle -->
@@ -14,53 +14,21 @@
         <!-- Navbar Links -->
         <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Tilgangen
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="https://bramos.dk/speciale/seo/">Screening</a></li>
-                        <!-- Additional dropdown items can be added here -->
-                    </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://bramos.dk/speciale/seo/">Tilgangen</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Ydelser
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="https://bramos.dk/speciale/seo/">Opkvalificering</a></li>
-                        <!-- Additional dropdown items can be added here -->
-                    </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://bramos.dk/speciale/seo/">Ydelser</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Bag Om Bramos
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="https://bramos.dk/speciale/seo/">Screening</a></li>
-                        <!-- Additional dropdown items can be added here -->
-                    </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://bramos.dk/speciale/seo/">Bag Om Bramos</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Vision
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="https://bramos.dk/speciale/seo/">Om Bramos</a></li>
-                        <!-- Additional dropdown items can be added here -->
-                    </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://bramos.dk/speciale/seo/">Vision</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Kontakt
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="https://bramos.dk/speciale/seo/">Screening</a></li>
-                        <!-- Additional dropdown items can be added here -->
-                    </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://bramos.dk/speciale/seo/">Kontakt</a>
                 </li>
-                
-                <!-- Additional nav items -->
             </ul>
         </div>
     </div>
