@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.1.3",
+    "bootstrap": "^5.3.3",
     "typeface-lato": "^1.1.13"
   },
   "devDependencies": {
