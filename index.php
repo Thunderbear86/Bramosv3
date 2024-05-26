@@ -10,12 +10,15 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Bramos - Din AI guide</title>
+    <title>Din ekspert i AI-løsninger og digital innovation</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
+    <meta name="description" content="Oplev AI-løsninger med Bramos. Effektiviser arbejdsprocesser og optimer
+    produktionskæder med vores AI ekspertise og innovative tilgang til teknologi.">
+
 
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -39,11 +42,11 @@
         <div class="row">
             <div class="col-12 cover-image-container">
 
-                <img src="img/stock/cover.jpg" alt="Cover Img">
+                <img src="img/stock/cover.jpg" alt="AI-løsninger hos Bramos">
 
-                <div class="overlay-text-cover">Bramos</div>
+                <div class="overlay-text-cover"><h1 style="color: #FFFFFF">Din guide til innovative AI-løsninger</h1></div>
 
-                <div class="subtext">Et skridt ind i fremtiden</div>
+
 
             </div>
         </div>
@@ -142,8 +145,12 @@
 -->
 
 <!-- White space -->
-<div id="newsCarousel" class="container-fluid container-third mt-5 mb-5 scroll-margin">
-    <div class="row"></div>
+<div id="newsCarousel" class="container-fluid mt-5 mb-5 scroll-margin">
+    <div class="row">
+        <div class="col-md-12 center-vertically-text m-2 pb-2">
+            <h2>Nyheder og opdateringer</h2>
+        </div>
+    </div>
 </div>
 
 <!-- Carousel Section -->
@@ -153,21 +160,21 @@
             <!-- Første nyhed -->
             <div class="carousel-item active">
                 <div class="carousel-image-container" onclick="openModal('modal1')">
-                    <img src="img/stock/news1.jpg" class="d-block w-100" alt="Nyhed 1">
+                    <img src="img/stock/news1.jpg" class="d-block w-100" alt="AI nyhed Bramos">
                     <div class="overlay-text">GPT-4o</div>
                 </div>
             </div>
             <!-- Anden nyhed -->
             <div class="carousel-item">
                 <div class="carousel-image-container" onclick="openModal('modal2')">
-                    <img src="img/stock/canva2.png" class="d-block w-100" alt="Nyhed 2">
+                    <img src="img/stock/canva2.png" class="d-block w-100" alt="AI nyhed 2 Bramos">
                     <div class="overlay-text">Canvas "Magic Studio"</div>
                 </div>
             </div>
             <!-- Tredje nyhed -->
             <div class="carousel-item">
                 <div class="carousel-image-container" onclick="openModal('modal3')">
-                    <img src="img/stock/sora.jpg" class="d-block w-100" alt="Nyhed 3">
+                    <img src="img/stock/sora.jpg" class="d-block w-100" alt="AI nyhed 3 Bramos">
                     <div class="overlay-text">Sora AI</div>
                 </div>
             </div>
@@ -189,7 +196,7 @@
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
-                <img src="img/logo/bramosLogow-09.png" class="img-fluid" alt="Logo" style="height: 50px;">
+                <img src="img/logo/bramosLogow-09.png" class="img-fluid" alt="Logo Bramos" style="height: 50px;">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body container">
@@ -233,7 +240,7 @@
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
-                <img src="img/logo/bramosLogow-09.png" class="img-fluid" alt="Logo" style="height: 50px;">
+                <img src="img/logo/bramosLogow-09.png" class="img-fluid" alt="Logo Bramos" style="height: 50px;">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body container">
@@ -279,7 +286,7 @@
     <div class="modal-dialog modal-fullscreen">
         <div class="modal-content">
             <div class="modal-header">
-                <img src="img/logo/bramosLogow-09.png" class="img-fluid" alt="Logo" style="height: 50px;">
+                <img src="img/logo/bramosLogow-09.png" class="img-fluid" alt="Logo Bramos" style="height: 50px;">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body container">
@@ -355,7 +362,7 @@
             <h2>Kontakt</h2>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6">
-            <p>Er du klar til at tage skridtet og kaste dig ud i at implementere advancerede AI-løsninger?</p>
+            <p>Er du klar til at tage skridtet og kaste dig ud i at implementere avancerede AI-løsninger?</p>
             <p>Uanset om du har spørgsmål, ønsker en uforpligtende konsultation, eller vil vide mere om, hvordan Bramos kan hjælpe din virksomhed, er du velkommen til at kontakte mig.</p>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6 d-flex justify-content-between contact-info">
