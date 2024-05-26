@@ -94,7 +94,7 @@
     <div class="row"></div>
 </div>
 
-<div class="container-fluid container-third mt-5 mb-5">
+<div id="services" class="container-fluid container-third mt-5 mb-5 scroll-margin">
     <div class="row p-5">
 
         <div class="col-md-12 center-vertically-text m-2 pb-2">
@@ -142,7 +142,7 @@
 -->
 
 <!-- White space -->
-<div class="container-fluid container-third mt-5 mb-5">
+<div id="newsCarousel" class="container-fluid container-third mt-5 mb-5 scroll-margin">
     <div class="row"></div>
 </div>
 
@@ -321,7 +321,7 @@
     <div class="row"></div>
 </div>
 
-<div class="container-fluid container-third mt-5 mb-5">
+<div id="om-bramos" class="container-fluid container-third mt-5 mb-5 scroll-margin">
     <div class="row p-5">
 
         <div class="col-md-12 center-vertically-text m-2 pb-2">
@@ -349,7 +349,7 @@
     <div class="row"></div>
 </div>
 
-<div class="container-fluid mt-5 mb-5">
+<div id="kontakt" class="container-fluid mt-5 mb-5 scroll-margin">
     <div class="row p-5">
         <div class="col-md-12 center-vertically-text m-2 pb-2">
             <h2>Kontakt</h2>

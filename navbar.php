@@ -14,36 +14,21 @@
         <!-- Navbar Links -->
         <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav ms-auto">
-            
                 <li class="nav-item">
-                    <a class="nav-link" href="https://bramos.dk/speciale/seo/">Tilgangen</a>
+                    <a class="nav-link" href="#services">Service</a>
                 </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link" href="https://bramos.dk/speciale/seo/">Service</a>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link" href="https://bramos.dk/speciale/seo/">Vision</a>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link" href="https://bramos.dk/speciale/seo/">Om Bramos</a>
-                </li>
-                
-                
                 <li class="nav-item">
                     <a class="nav-link" href="catalog.php">AI løsninger</a>
-                </li> 
-                
-                <li class="nav-item">
-                    <a class="nav-link" href="blog.php">Nyheder</a>
                 </li>
-                
                 <li class="nav-item">
-                    <a class="nav-link" href="https://bramos.dk/speciale/seo/">Kontakt</a>
+                    <a class="nav-link" href="#newsCarousel">Nyheder</a>
                 </li>
-                
+                <li class="nav-item">
+                    <a class="nav-link" href="#om-bramos">Om Bramos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#kontakt">Kontakt</a>
+                </li>
             </ul>
         </div>
     </div>

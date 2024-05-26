@@ -113,6 +113,22 @@ header {
 	z-index: 1020;
 }
 
+@media (max-width: 768px) {
+	.navbar-nav {
+		padding-left: 15px; /* Adjust this value as needed */
+	}
+}
+
+//Navbar scroll fix
+.scroll-margin {
+	scroll-margin-top: 80px; /* Adjust this value according to the height of your navbar */
+}
+
+/* Smooth scrolling */
+html {
+	scroll-behavior: smooth;
+}
+
 /* Flexbox Centering Utilities */
 .center-vertically, .center-vertically-text {
 	display: flex;
