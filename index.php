@@ -42,7 +42,7 @@
         <div class="row">
             <div class="col-12 cover-image-container">
 
-                <img src="img/stock/cover.jpg" alt="AI-løsninger hos Bramos">
+                <img src="img/stock/cover.webp" alt="AI-løsninger hos Bramos">
 
                 <div class="overlay-text-cover"><h1 style="color: #FFFFFF">Din guide til innovative AI-løsninger</h1></div>
 
@@ -160,21 +160,21 @@
             <!-- Første nyhed -->
             <div class="carousel-item active">
                 <div class="carousel-image-container" onclick="openModal('modal1')">
-                    <img src="img/stock/news1.jpg" class="d-block w-100" alt="AI nyhed Bramos">
+                    <img src="img/stock/news1.webp" class="d-block w-100" alt="AI nyhed Bramos">
                     <div class="overlay-text">GPT-4o</div>
                 </div>
             </div>
             <!-- Anden nyhed -->
             <div class="carousel-item">
                 <div class="carousel-image-container" onclick="openModal('modal2')">
-                    <img src="img/stock/canva2.png" class="d-block w-100" alt="AI nyhed 2 Bramos">
+                    <img src="img/stock/canva2.webp" class="d-block w-100" alt="AI nyhed 2 Bramos">
                     <div class="overlay-text">Canvas "Magic Studio"</div>
                 </div>
             </div>
             <!-- Tredje nyhed -->
             <div class="carousel-item">
                 <div class="carousel-image-container" onclick="openModal('modal3')">
-                    <img src="img/stock/sora.jpg" class="d-block w-100" alt="AI nyhed 3 Bramos">
+                    <img src="img/stock/sora.webp" class="d-block w-100" alt="AI nyhed 3 Bramos">
                     <div class="overlay-text">Sora AI</div>
                 </div>
             </div>
