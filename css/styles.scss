@@ -126,10 +126,12 @@ header {
 	width: 100%;
 	overflow: hidden;
 	padding: 0;
+	max-height: 500px;
 
 	img {
 		width: 100%;
 		object-fit: cover;
+		max-height: 500;
 	}
 
 	.overlay-text-cover, .subtext {
@@ -211,7 +213,7 @@ header {
 	color: #F2FFFF;
 }
 
-//Nyhed karousel
+//Nyheds carousel
 .carousel-image-container,
 .card-img-container {
 	position: relative;
@@ -226,8 +228,20 @@ header {
 .carousel-image-container img,
 .card-img-container img {
 	width: 100%;
-	height: 100%;
+	height: auto;
+	max-height: 400px;
 	object-fit: cover;
+}
+
+@media (max-width: 768px) {
+	.carousel-image-container,
+	.card-img-container {
+		max-height: 200px;
+	}
+	.carousel-image-container img,
+	.card-img-container img {
+		max-height: 200px;
+	}
 }
 
 // Carousel Cards Style
@@ -276,4 +290,23 @@ header {
 
 .modal-body {
 	padding: 20px; /* Adds padding to the modal body */
+}
+
+
+//Kontakt felt
+
+.contact-info > div {
+	flex: 1;
+	padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+	.contact-info {
+		flex-direction: column;
+	}
+
+	.contact-info > div {
+		padding: 10px 0;
+		text-align: center;
+	}
 }

@@ -25,9 +25,9 @@
             <div class="col-md-4 mb-3">
                 <h5 class="text-uppercase">Kontakt os</h5>
                 <ul class="list-unstyled">
-                    <li><span class="text-light">Adresse: Din adresse her</span></li>
-                    <li><span class="text-light">Telefon: +45 xx xx xx xx</span></li>
-                    <li><span class="text-light">Email: email@bramos.dk</span></li>
+                    <li><span class="text-light">Adresse: Vindingevej, 5800 Nyborg</span></li>
+                    <li><span class="text-light">Telefon: +45 52 52 85 67</span></li>
+                    <li><span class="text-light">Email: tbw@bramos.dk</span></li>
                 </ul>
             </div>
 

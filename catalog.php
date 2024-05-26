@@ -39,7 +39,7 @@
         <div class="row">
             <div class="col-12 cover-image-container">
 
-                <img src="img/cover.png" alt="Cover Img">
+                <img src="img/stock/cover.jpg" alt="Cover Img">
 
                 <div class="overlay-text-cover">Bramos</div>
 

@@ -39,7 +39,7 @@
         <div class="row">
             <div class="col-12 cover-image-container">
 
-                <img src="img/cover.png" alt="Cover Img">
+                <img src="img/stock/cover.jpg" alt="Cover Img">
 
                 <div class="overlay-text-cover">Bramos</div>
 
@@ -52,6 +52,99 @@
 </header>
 
 <!-- Main content -->
+
+<div class="container-fluid blog mt-5 mb-5">
+    <div class="row p-5">
+
+        <div class="col-md-12 center-vertically-text m-2 pb-2">
+            <h2>Velkommen til Bramos</h2>
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-12">
+
+            <p>Visionen er simple. Jeg har et ønske om at hjælpe virksomheder med at tage innovative AI-løsninger til sig, for at frigøre ressourcer og øge omsætningen.</p>
+            <p>Jeg tror på, at AI teknologien kan være en drivkraft for positive ændringer i virksomheder, både i forhold til økonomi, miljø og medarbejderpleje.</p>
+            <br>
+            <p>Jeg er dedikeret til at fremme grønne tiltag ved at identificere og implementere AI-løsninger, der reducerer spild og optimerer energiforbruget.</p>
+            <p>Ved at tage ansvar for vores planet kan vi sammen skabe en bæredygtig fremtid.</p>
+
+            <p>Hertil kommer, at en glad medarbejder er en god medarbejder. Ved at lette arbejdsbyrden gennem effektiv automatisering og intelligente værktøjer, skaber vi et bedre arbejdsmiljø, hvor jeres team kan fokusere på jeres kerneopgave.</p>
+            <br>
+            <p>Med Bramos er mit mål, at gøre det muligt for jer at opnå mere med mindre - samtidig med at vi bidrager til en bedre verden.</p>
+        </div>
+
+    </div>
+</div>
+
+<!--
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-image-container d-flex align-items-center justify-content-center">
+            <div class="fp-image">
+                <img src="img/apps.jpg" alt="App udvikling" class="mx-auto">
+            </div>
+        </div>
+    </div>
+</div>
+
+-->
+
+<!-- White space -->
+<div class="container-fluid container-third mt-5 mb-5">
+    <div class="row"></div>
+</div>
+
+<div class="container-fluid container-third mt-5 mb-5">
+    <div class="row p-5">
+
+        <div class="col-md-12 center-vertically-text m-2 pb-2">
+            <h2>Vores service til dig</h2>
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-6">
+            <h5>Indledende</h5>
+            <p>I den indledende samtale afdækker vi sammen, hvilke behov I har og hvad jeg ser af muligheder.</p>
+            <p>Ved hjælp af en screening identificerer vi sammen, hvilke områder der kan effektiviseres ved hjælp af kunstig intelligens.</p>
+
+            <h5>Screening</h5>
+            <p>Jeg observerer og analyserer jeres nuværende arbejdsprocesser for at identificere, hvilke AI-løsninger der kan skabe mest værdi.</p>
+            <p>Her fokuserer vi på arbejdsprocesser der kan effektiviseres og produktionskæder der kan forkortes.</p>
+            <p>Målet er at finde de mest effektive løsninger, der kan implementeres hurtigt og med størst mulig effekt.</p>
+
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-6">
+            <h5>Implementering</h5>
+            <p>Uanset hvilket område vi arbejder med, findes der en bred vifte af AI-løsninger.</p>
+            <p>Sammen gennemgår vi fordele og ulemper af online services samt lokal installerede løsninger.</p>
+            <p>Hertil kommer en gennemgang af licenser, rettigheder og sikkerhed.</p>
+            <p>Jeg sørger for, at I får en løsning, der er skræddersyet til jeres behov.</p>
+            <p>Jeg bistår med installation, konfiguration og tilpasning, så I hurtigt kan drage fordel af de nye teknologier.</p>
+
+            <h5>Support</h5>
+            <p>Jeg tilbyder omfattende support, der inkluderer kurser og oplæring, løbende opfølgning samt opdatering af programmer eller løsninger.</p>
+            <p>Mit mål er at sikre, at jeres team er godt rustet til at anvende AI-løsningerne effektivt og får maksimal værdi ud af dem. </p>
+            <p>Jeg er tilgængelige for at besvare spørgsmål og løse problemer, efterhånden som de opstår, hvilket sikrer kontinuerlig drift og forbedring.</p>
+        </div>
+
+    </div>
+</div>
+<!--
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-image-container">
+            <div class="fp-image">
+                <img src="img/vidensbank.jpg" alt="Pædagogisk vidensbank">
+            </div>
+        </div>
+    </div>
+</div>
+-->
+
+<!-- White space -->
+<div class="container-fluid container-third mt-5 mb-5">
+    <div class="row"></div>
+</div>
 
 <!-- Carousel Section -->
 <div class="container mt-5 mb-5">
@@ -222,91 +315,6 @@
     </div>
 </div>
 
-<!--
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-image-container d-flex align-items-center justify-content-center">
-            <div class="fp-image">
-                <img src="img/apps.jpg" alt="App udvikling" class="mx-auto">
-            </div>
-        </div>
-    </div>
-</div>
-
--->
-
-<!-- White space -->
-<div class="container-fluid container-third mt-5 mb-5">
-    <div class="row"></div>
-</div>
-
-<div class="container-fluid container-third mt-5 mb-5">
-    <div class="row p-5">
-
-        <div class="col-md-12 center-vertically-text m-2 pb-2">
-            <h2>Vores service til dig</h2>
-        </div>
-
-        <div class="col-sm-12 col-md-12 col-lg-6">
-            <h5>Kommunikation</h5>
-            <p>I en indledende samtale afdækker vi sammen, hvilke behov I har og hvad jeg ser af muligheder.</p>
-
-            <h5>Screening</h5>
-            <p>Ved hjælp af en screening identificerer vi sammen, hvilke områder der kan effektiviseres ved hjælp af kunstig intelligens.</p>
-            <p>Her fokuserer vi på arbejdsprocesser der kan effektiviseres og produktionskæder der kan forkortes.</p>
-
-        </div>
-
-        <div class="col-sm-12 col-md-12 col-lg-6">
-            <h5>Implementering</h5>
-            <p>Uanset hvilket område vi arbejder med, findes der en bred vifte af AI løsninger.</p>
-            <p>Sammen gennemgår vi fordele og ulemper af online services, såvel som lokal installerede løsninger.</p>
-            <p>Hertil kommer en gennemgang af licenser, rettigheder og sikkerhed.</p>
-
-            <h5>Support</h5>
-            <p>Kurser og oplæring</p>
-            <p>Løbende opfølgning</p>
-            <p>Opdatering af programmer eller løsninger</p>
-        </div>
-
-    </div>
-</div>
-<!--
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12 col-image-container">
-            <div class="fp-image">
-                <img src="img/vidensbank.jpg" alt="Pædagogisk vidensbank">
-            </div>
-        </div>
-    </div>
-</div>
--->
-
-<!-- White space -->
-<div class="container-fluid container-third mt-5 mb-5">
-    <div class="row"></div>
-</div>
-
-<div class="container-fluid blog mt-5 mb-5">
-    <div class="row p-5">
-
-        <div class="col-md-12 center-vertically-text m-2 pb-2">
-            <h2>Visionen</h2>
-        </div>
-
-        <div class="col-sm-12 col-md-12 col-lg-12">
-
-            <p>Frigøre ressourcer & øge omsætning</p>
-
-            <p>Fordre grønne tiltag</p>
-
-            <p>En glad medarbejder er en god medarbejder</p>
-
-        </div>
-
-    </div>
-</div>
 
 <!-- White space -->
 <div class="container-fluid container-third mt-5 mb-5">
@@ -321,25 +329,16 @@
         </div>
 
         <div class="col-sm-12 col-md-12 col-lg-6 mt-3">
-            <h5>Overskrift</h5>
-            <p>Når vi kender jeres specifikke behov, kan vi udvikle løsninger, der passer ind i jeres hverdag. Vi
-                udvikler apps, som kan gøre dokumentation på farten muligt. Ligeledes vil vidensdeling og overlap mellem
-                personaler blive en nem og overskuelig proces. </p>
+            <p>Jeg hedder Thorbjørn Benjamin Wagner, og jeg står bag Bramos, en virksomhed med fokus på at levere avancerede AI-løsninger og digital innovation. Med en solid baggrund inden for multimediedesign, grafisk design, og SoMe-marketing, samt en dyb forståelse for AI og prompt engineering, har jeg dedikeret mig til at skabe værdi gennem teknologi.</p>
             <br>
-            <p>Det vigtigste er, at vi formår at gøre netop jeres hverdag bedre, for at frigøre ressourcer og energi til
-                arbejdet med børn eller borgere.</p>
+            <p>Min interesse for teknologi og innovation driver mig til konstant at udforske nye måder at integrere AI i designprocesser. Dette inkluderer medieproduktion, billed-, video- og lydredigering, marketing, content creation, og udvikling af sprogmodeller til chatbot-udvikling. Jeg følger nøje med i de nyeste tendenser inden for AI, hvilket sikrer, at Bramos altid tilbyder de mest opdaterede og effektive løsninger.</p>
         </div>
 
         <div class="col-sm-12 col-md-12 col-lg-6 mt-3">
-            <h5>Overskrift</h5>
-            <p>En af de fornemmeste opgaver der findes i det pædagogiske felt er, at forberede og fremme selvstændighed.
-                Evnen til at mestre eget liv. Med et fremstormende teknologisk sektor, kan vi med fordel drage nytte af
-                den udvikling der sker - både indenfor kunstig intelligens, men også med at de fleste kan lære at
-                benytte apps.</p>
+            <p>Jeg har udviklet stærke kompetencer inden for webudvikling, AI-teknologier og har stærke sproglige evner. Jeg er flydende i tysk, engelsk og dansk, og har også erfaring med spansk. Denne sproglige diversitet beriger min evne til at kommunikere og forstå forskellige markeder og kulturelle kontekster.</p>
             <br>
-            <p>Sammen med jer, vil vi udvikle apps der støtter børnenes og borgernes mulighed for at udvikle
-                selvstændighed og medbestemmelse. Omdrejningspunktet kan være hjælp til kommunikation, planlægning og
-                strukturering, med- og selvbestemmelse og meget mere.</p>
+            <p>Jeg er dedikeret til at hjælpe virksomheder med at optimere deres arbejdsprocesser og frigøre ressourcer gennem innovative AI-løsninger. Mit mål er at skabe skræddersyede løsninger, der passer til hver enkelt kundes unikke behov, og dermed styrke deres konkurrencedygtighed og vækst.</p>
+            <p>Jeg søger altid at optimere AI-løsningerne, så din virksomhed får mulighed for at blive grønnere, eller at øge medarbejdertrivsel.</p>
         </div>
 
     </div>
@@ -355,28 +354,27 @@
         <div class="col-md-12 center-vertically-text m-2 pb-2">
             <h2>Kontakt</h2>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-6 ">
-
-            <p>Kender du forskellen på <span class="fw-bold" style="color: #C47F2A">open-source</span> og <span class="fw-bold" style="color: #C47F2A">closed-source</span> AI løsninger?</p>
-
-            <p>Har du styr på <span class="fw-bold" style="color: #C47F2A">licens</span> og <span class="fw-bold" style="color: #C47F2A">rettigheder</span>?</p>
-
-            <p>Ved du hvilke muligheder der er indenfor AI, som dækker netop <span class="fw-bold" style="color: #C47F2A">dine</span> behov?</p>
-
+        <div class="col-sm-12 col-md-12 col-lg-6">
+            <p>Er du klar til at tage skridtet og kaste dig ud i at implementere advancerede AI-løsninger?</p>
+            <p>Uanset om du har spørgsmål, ønsker en uforpligtende konsultation, eller vil vide mere om, hvordan Bramos kan hjælpe din virksomhed, er du velkommen til at kontakte mig.</p>
         </div>
-
-        <div class="col-sm-12 col-md-12 col-lg-6 ">
-
-            <p>Gennem en grundig screening, afdækker vi sammen hvilke områder, der kan optimeres med kunstig intelligens.</p>
-
-            <p>Jeg hjælper dig og din virksomhed med at navigere de mange tilbud der findes og guider jer i brugen af dem.</p>
-
-            <p>Målet er, at optimere arbejdsprocesser og forkorte produktionskæder - og dermed frigøre ressourcer.</p>
-
+        <div class="col-sm-12 col-md-12 col-lg-6 d-flex justify-content-between contact-info">
+            <div>
+                <h5><span class="fw-bold" style="color: #C47F2A">Adresse</span></h5>
+                <p>Vindeingevej <br>5800 Nyborg</p>
+            </div>
+            <div>
+                <h5><span class="fw-bold" style="color: #C47F2A">Telefon</span></h5>
+                <p>+45 52 52 85 67</p>
+            </div>
+            <div>
+                <h5><span class="fw-bold" style="color: #C47F2A">Email</span></h5>
+                <p><a href="mailto:tbw@bramos.dk">tbw@bramos.dk</a></p>
+            </div>
         </div>
-
     </div>
 </div>
+
 
 <!-- White space -->
 <div class="container-fluid container-third mt-5 mb-5">
