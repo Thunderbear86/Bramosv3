@@ -21,7 +21,7 @@
                     <a class="nav-link" href="catalog.php">AI løsninger</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#newsCarousel">Nyheder</a>
+                    <a class="nav-link" href="#newsCarouselNav">Nyheder</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#om-bramos">Om Bramos</a>

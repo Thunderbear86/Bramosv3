@@ -145,7 +145,7 @@
 -->
 
 <!-- White space -->
-<div id="newsCarousel" class="container-fluid mt-5 mb-5 scroll-margin">
+<div id="newsCarouselNav" class="container-fluid mt-5 mb-5 scroll-margin">
     <div class="row">
         <div class="col-md-12 center-vertically-text m-2 pb-2">
             <h2>Nyheder og opdateringer</h2>
@@ -179,7 +179,7 @@
                 </div>
             </div>
         </div>
-        <!-- Karousel kontrol -->
+        <!-- Karusel kontrol -->
         <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -396,6 +396,7 @@
 <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script type="module" src="js/main.js"></script>
+
 
 <script>
     function openModal(modalId) {
