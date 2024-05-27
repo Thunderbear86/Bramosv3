@@ -63,12 +63,14 @@
             <h2>Velkommen til Bramos</h2>
         </div>
 
-        <div class="col-sm-12 col-md-12 col-lg-12">
+        <div class="col-sm-12 col-md-12 col-lg-6">
 
             <p>Visionen er simple. Jeg har et ønske om at hjælpe virksomheder med at tage innovative AI-løsninger til sig, for at frigøre ressourcer og øge omsætningen.</p>
             <p>Jeg tror på, at AI teknologien kan være en drivkraft for positive ændringer i virksomheder, både i forhold til økonomi, miljø og medarbejderpleje.</p>
             <br>
             <p>Jeg er dedikeret til at fremme grønne tiltag ved at identificere og implementere AI-løsninger, der reducerer spild og optimerer energiforbruget.</p>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6">
             <p>Ved at tage ansvar for vores planet kan vi sammen skabe en bæredygtig fremtid.</p>
 
             <p>Hertil kommer, at en glad medarbejder er en god medarbejder. Ved at lette arbejdsbyrden gennem effektiv automatisering og intelligente værktøjer, skaber vi et bedre arbejdsmiljø, hvor jeres team kan fokusere på jeres kerneopgave.</p>
@@ -118,7 +120,7 @@
 
         <div class="col-sm-12 col-md-12 col-lg-6">
             <h5>Implementering</h5>
-            <p>Uanset hvilket område vi arbejder med, findes der en bred vifte af AI-løsninger.</p>
+            <p>Uanset hvilket område vi arbejder med, findes der en bred vifte af <a href="catalog.php">AI-løsninger</a>.</p>
             <p>Sammen gennemgår vi fordele og ulemper af online services samt lokal installerede løsninger.</p>
             <p>Hertil kommer en gennemgang af licenser, rettigheder og sikkerhed.</p>
             <p>Jeg sørger for, at I får en løsning, der er skræddersyet til jeres behov.</p>

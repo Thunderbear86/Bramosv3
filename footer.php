@@ -13,11 +13,11 @@
             <div class="col-md-4 mb-3">
                 <h5 class="text-uppercase">Hurtige links</h5>
                 <ul class="list-unstyled">
-                    <li><a href="#" class="text-light">Tilgangen</a></li>
-                    <li><a href="#" class="text-light">Ydelser</a></li>
-                    <li><a href="#" class="text-light">Bag Om Bramos</a></li>
-                    <li><a href="#" class="text-light">Vision</a></li>
-                    <li><a href="#" class="text-light">Kontakt</a></li>
+                    <li><a href="#services" class="text-light">Service</a></li>
+                    <li><a href="catalog.php" class="text-light">AI-løsninger</a></li>
+                    <li><a href="newsCarouselNav" class="text-light">Nyheder</a></li>
+                    <li><a href="om-bramos" class="text-light">Om Bramos</a></li>
+                    <li><a href="kontakt" class="text-light">Kontakt</a></li>
                 </ul>
             </div>
 

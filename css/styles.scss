@@ -144,6 +144,11 @@ html {
 	padding: 0;
 	max-height: 500px;
 
+	/* Hide on large screens and up */
+	@media (min-width: 992px) {
+      display: none;
+    }
+
 	img {
 		width: 100%;
 		object-fit: cover;
@@ -291,21 +296,21 @@ html {
 }
 
 .modal-content {
-	background-color: #F2FFFF; /* Matches the body background color */
+	background-color: #F2FFFF;
 }
 
 .modal-header,
 .modal-footer {
-	background-color: #3F5B63; /* Matches the body background color */
-	color: #F2FFFF; /* Ensures text is readable on the light background */
+	background-color: #3F5B63;
+	color: #F2FFFF;
 }
 
 .modal-header .modal-title {
-	color: #C47F2A; /* Ensures title text is readable on the light background */
+	color: #C47F2A;
 }
 
 .modal-body {
-	padding: 20px; /* Adds padding to the modal body */
+	padding: 20px;
 }
 
 
@@ -325,4 +330,80 @@ html {
 		padding: 10px 0;
 		text-align: center;
 	}
+}
+
+//ai-cards
+
+.ai-card {
+	margin-top: 20px;
+	border: 1px solid #3F5B63;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+	height: 300px;
+	background-color: #f2ffff;
+}
+
+.ai-card h4 {
+	padding: 10px;
+}
+
+
+.ai-card .card-img-top {
+	height: 120px;
+	object-fit: cover;
+}
+
+.ai-card .card-body {
+	overflow: hidden;
+}
+
+.ai-card .card-footer {
+	background-color: #3F5B63;
+}
+
+.ai-card .card-footer, .ai-card .card-footer small, .ai-card .card-footer small b {
+	color: #f2ffff !important;
+}
+
+.ai-card .card-footer small {
+	font-weight: normal;
+}
+
+.ai-card .card-footer small b {
+	font-weight: bold;
+}
+
+
+
+.modal-lg {
+	max-width: 80%;
+}
+
+.modal-header .close {
+	margin-top: -20px;
+	margin-right: -20px;
+	font-size: 30px;
+}
+
+//Modal luk BTN
+.custom-luk-button {
+	background-color: #C47F2A;
+	color: #F2FFFF;
+	border-color: #C47F2A;
+}
+
+.custom-luk-button:hover {
+	background-color: #3F5B63;
+	color: #C47F2A;
+}
+
+//From sedn BTN
+.custom-send-button {
+	background-color: #C47F2A;
+	color: #F2FFFF;
+	border-color: #C47F2A;
+}
+
+.custom-send-button:hover {
+	background-color: #3F5B63;
+	color: #C47F2A;
 }

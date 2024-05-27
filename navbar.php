@@ -15,19 +15,19 @@
         <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#services">Service</a>
+                    <a class="nav-link" href="index.php#services">Service</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="catalog.php">AI løsninger</a>
+                    <a class="nav-link" href="catalog.php">AI-løsninger</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#newsCarouselNav">Nyheder</a>
+                    <a class="nav-link" href="index.php#newsCarouselNav">Nyheder</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#om-bramos">Om Bramos</a>
+                    <a class="nav-link" href="index.php#om-bramos">Om Bramos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#kontakt">Kontakt</a>
+                    <a class="nav-link" href="index.php#kontakt">Kontakt</a>
                 </li>
             </ul>
         </div>
