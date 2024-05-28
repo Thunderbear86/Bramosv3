@@ -17,11 +17,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="index.php#services">Service</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="catalog.php">AI-løsninger</a>
-                </li>
+                
                 <li class="nav-item">
                     <a class="nav-link" href="index.php#newsCarouselNav">Nyheder</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="catalog.php">AI katalog</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php#om-bramos">Om Bramos</a>

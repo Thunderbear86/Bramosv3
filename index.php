@@ -44,7 +44,7 @@
 
                 <img src="img/stock/cover.webp" alt="AI-løsninger hos Bramos">
 
-                <div class="overlay-text-cover"><h1 style="color: #FFFFFF">Din guide til innovative AI-løsninger</h1></div>
+                <div class="overlay-text-cover"><h1 style="color: #FFFFFF">Din guide til innovative <br> AI-løsninger</h1></div>
 
 
 

@@ -111,6 +111,7 @@
                         <option value="gratis og køb">Gratis og køb</option>
                     </select>
                 </div>
+                <br>
                 <button type="submit" class="btn btn-primary custom-send-button">Send</button>
             </form>
         </div>
