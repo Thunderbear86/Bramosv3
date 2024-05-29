@@ -33,16 +33,16 @@
 <div class="container mt-5">
     <h2>AI-løsninger</h2>
     <?php
-    require 'settings/init.php'; // Make sure this path is correct and init.php correctly initializes the db class
+    require 'settings/init.php';
 
-    // Fetching AI solutions that are active
     $solutions = $db->sql("SELECT * FROM aisolutions WHERE is_active = 1", [], true);
 
     if (!empty($solutions)) {
         echo '<div class="row">';
         foreach ($solutions as $solution) {
+            $modalId = "solutionModal" . $solution->id;
             echo '<div class="col-md-4 mb-4">';
-            echo '<div class="card h-100 ai-card" data-bs-toggle="modal" data-bs-target="#solutionModal{{solution.id}}">';
+            echo '<div class="card h-100 ai-card" data-bs-toggle="modal" data-bs-target="#' . $modalId . '">';
             echo '<h4 class="text-center mt-2">' . htmlspecialchars($solution->name) . '</h4>';
             echo '<div class="card-body">';
             echo '<p class="card-text">' . substr(htmlspecialchars($solution->description), 0, 100) . '...</p>';
@@ -53,6 +53,18 @@
             echo '</div>';
             echo '</div>';
             echo '</div>';
+
+            // Modal for each solution
+            echo '<div class="modal fade" id="' . $modalId . '" tabindex="-1" aria-labelledby="' . $modalId . 'Label" aria-hidden="true">';
+            echo '<div class="modal-dialog modal-lg">';
+            echo '<div class="modal-content">';
+            echo '<div class="modal-body">' . nl2br(htmlspecialchars($solution->description)) . '</div>';
+            echo '<div class="modal-footer">';
+            echo '<button type="button" class="btn btn-secondary custom-luk-button" data-bs-dismiss="modal">Tilbage</button>';
+            echo '</div>';
+            echo '</div>';
+            echo '</div>';
+            echo '</div>';
         }
         echo '</div>';
     } else {
@@ -60,7 +72,6 @@
     }
     ?>
 </div>
-
 
 <!-- Tilføj ny AI -->
 <div class="container mt-5">
@@ -103,7 +114,6 @@
     </div>
 </div>
 
-
 <footer class="mt-5">
     <?php include 'footer.php'; ?>
 </footer>
@@ -111,7 +121,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
-
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script type="module" src="js/main.js"></script>
 </body>
