@@ -29,19 +29,25 @@
     <div class="row"></div>
 </div>
 
+<!-- Search Bar -->
+<div class="container col-lg-4 col-md-6 mt-3 mb-3">
+    <div class="input-group mb-4">
+        <input type="text" id="searchInput" class="form-control" placeholder="Sorter efter kategori...">
+    </div>
+</div>
+
 <!-- Katalog -->
 <div class="container mt-5">
-    <h2>AI-løsninger</h2>
+    <h2 class="text-center">AI katalog</h2>
     <?php
     require 'settings/init.php';
-
     $solutions = $db->sql("SELECT * FROM aisolutions WHERE is_active = 1", [], true);
 
     if (!empty($solutions)) {
         echo '<div class="row">';
         foreach ($solutions as $solution) {
             $modalId = "solutionModal" . $solution->id;
-            echo '<div class="col-md-4 mb-4">';
+            echo '<div class="col-md-4 mb-4 filterCard">';
             echo '<div class="card h-100 ai-card" data-bs-toggle="modal" data-bs-target="#' . $modalId . '">';
             echo '<h4 class="text-center mt-2">' . htmlspecialchars($solution->name) . '</h4>';
             echo '<div class="card-body">';

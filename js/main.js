@@ -2,6 +2,7 @@
 import { toggleMenu } from './burger.js';
 import { makeNavbarSticky } from './sticky.js';
 import { setupNavbarCollapse } from './navbar.js';
+import { setupSearch } from './search.js'; // Import the search function
 
 // Attach functions to the global window object if needed
 window.toggleMenu = toggleMenu;
@@ -11,3 +12,6 @@ makeNavbarSticky();
 
 // Setup Navbar collapse on link click for mobile view
 setupNavbarCollapse();
+
+// Setup the search functionality
+setupSearch(); // Initialize the search functionality
