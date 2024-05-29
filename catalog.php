@@ -33,40 +33,25 @@
 <div class="container mt-5">
     <h2>AI-løsninger</h2>
     <?php
-    require 'settings/init.php'; // Database connection
-    $solutions = $db->sql("SELECT * FROM aisolutions WHERE is_active = 1");
+    require 'settings/init.php'; // Make sure this path is correct and init.php correctly initializes the db class
+
+    // Fetching AI solutions that are active
+    $solutions = $db->sql("SELECT * FROM aisolutions WHERE is_active = 1", [], true);
 
     if (!empty($solutions)) {
         echo '<div class="row">';
         foreach ($solutions as $solution) {
-            // Card structure with clickable area for modal
             echo '<div class="col-md-4 mb-4">';
-            echo '<div class="card h-100 ai-card" data-toggle="modal" data-target="#solutionModal' . $solution->id . '" style="cursor:pointer;">';
+            echo '<div class="card h-100 ai-card" data-bs-toggle="modal" data-bs-target="#solutionModal{{solution.id}}">';
             echo '<h4 class="text-center mt-2">' . htmlspecialchars($solution->name) . '</h4>';
-            //echo '<img src="uploads/' . htmlspecialchars($solution->image_url) . '" class="card-img-top" alt="' . htmlspecialchars($solution->name) . '">';
             echo '<div class="card-body">';
             echo '<p class="card-text">' . substr(htmlspecialchars($solution->description), 0, 100) . '...</p>';
             echo '</div>';
             echo '<div class="card-footer">';
-            echo '<small class="text-muted"><b><span style="color: #F2FFFF"> Kategorier:</b></span> ' . htmlspecialchars($solution->categories) . '</small><br>';
-            echo '<small class="text-muted"><b></b>Pris:</b> ' . htmlspecialchars($solution->pricing) . '</small>';
+            echo '<small class="text-muted">Kategorier: ' . htmlspecialchars($solution->categories) . '</small><br>';
+            echo '<small class="text-muted">Pris: ' . htmlspecialchars($solution->pricing) . '</small>';
             echo '</div>';
             echo '</div>';
-            // Modal structure without title and close button (X)
-            echo '<div class="modal fade" id="solutionModal' . $solution->id . '" tabindex="-1" role="dialog" aria-hidden="true">';
-            echo '<div class="modal-dialog modal-lg" role="document">';
-            echo '<div class="modal-content">';
-            echo '<div class="modal-body">';
-            echo '<img src="uploads/' . htmlspecialchars($solution->image_url) . '" class="img-fluid mb-3" alt="">';
-            echo nl2br(htmlspecialchars($solution->description));
-            echo '</div>';
-            echo '<div class="modal-footer">';
-            echo '<button type="button" class="btn btn-secondary custom-luk-button" data-dismiss="modal">Luk</button>';
-            echo '</div>';
-            echo '</div>';
-            echo '</div>';
-            echo '</div>';
-
             echo '</div>';
         }
         echo '</div>';
